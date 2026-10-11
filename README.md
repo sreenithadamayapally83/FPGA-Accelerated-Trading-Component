@@ -8,7 +8,7 @@ To quantify the performance advantage of hardware acceleration, the execution la
 
 * **FPGA Hardware Execution (Verilog Module):** **10 ns** (Exactly 1 Clock Cycle @ 100 MHz)
 * **CPU Software Execution (Python Loop Baseline):** **4,600 ns** (4.6 μs)
-* **Performance Acceleration Factor:** **460x Latency Reduction**
+* **Performance Acceleration Factor:** **single-cycle response, 10 ns at an assumed 100 MHz clock, compared with 4.6 µs for a Python loop**
 
 ## Verified Simulation Waveforms
 
